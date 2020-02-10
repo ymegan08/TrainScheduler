@@ -1,0 +1,103 @@
+.container {
+    font-family: 'Eczar', serif;
+    color: #313639;
+    padding-bottom: 20px;
+}
+
+.container .jumbotron {
+    background-color: #e1ccff;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container .jumbotron h1 {
+    font-size: 60px;
+}
+
+.container .jumbotron p {
+    font-size: 20px;
+}
+
+.panel-heading {
+    background-color: #e1ccff;
+    color: #313639;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.panel-body {
+    color: #313639;
+}
+
+#add-train.btn.btn-success {
+    background-color: #e1ccff;
+    border-color: transparent;
+    color: #313639;
+}
+
+#add-train.btn.btn-success:hover{
+    background-image:linear-gradient(
+      to right, 
+      #E7484F,
+      #E7484F 16.65%,
+      #F68B1D 16.65%,
+      #F68B1D 33.3%,
+      #FCED00 33.3%,
+      #FCED00 49.95%,
+      #009E4F 49.95%,
+      #009E4F 66.6%,
+      #00AAC3 66.6%,
+      #00AAC3 83.25%,
+      #732982 83.25%,
+      #732982 100%,
+      #E7484F 100% 
+    );
+  animation:slidebg 2s linear infinite;
+}
+
+@keyframes slidebg {
+    to {
+      background-position:20vw;
+    }
+}
+
+body{
+    background: linear-gradient(270deg, #d078ea, #f5d8ec, #e8d8a5);
+    background-size: 600% 600%;
+
+    -webkit-animation: AnimationName 30s ease infinite;
+    -moz-animation: AnimationName 30s ease infinite;
+    animation: AnimationName 30s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+#train-name.form-control{
+    background-color: transparent;
+}
+
+#destination.form-control{
+    background-color: transparent;
+}
+
+#first-train.form-control{
+    background-color: transparent;
+}
+
+#frequency.form-control{
+    background-color: transparent;
+}
